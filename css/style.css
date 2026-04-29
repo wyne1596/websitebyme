@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7px;
+    background-color: #410b58;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;
+}
+
+.logo-link img {
+    width: 40px; 
+    height: auto;  
+    display: block;
+}
+
+.hamburger-sidebar {
+    color: #fff;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.hamburger-sidebar:hover {
+    color: #736272;
+}
+
+.music-btn-container {
+    display: flex;
+    gap: -10px;
+}
+
+.music-btn {
+    font-size: 20px;
+    display: block;
+    margin: 15px 5px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.music-btn:hover {
+    color: #736272;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #7f33b5;
+    color: #fff;
+    transition: left 0.3s ease;
+    overflow-x: hidden;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-btn{
+    background-color: #7f33b5;
+    font-size: 20px;
+    display: block;
+    padding: 20px 40px;
+    margin: 15px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-btn:hover {
+    color: #a394a2;
+    background-color: #5e2a8c;
+}
+
+.content {
+    margin: 10px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    color: #ffffff;
+    min-height: calc(100vh - 120px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
