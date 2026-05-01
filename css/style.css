@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 7px;
-    background-color: #410b58;
+    background-color: #520b70;
     color: #fff;
 }
 
@@ -71,7 +71,7 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #7f33b5;
+    background-color: #741db2;
     color: #fff;
     transition: left 0.3s ease;
     overflow-x: hidden;
@@ -88,8 +88,8 @@
 }
 
 .sidebar-btn{
-    background-color: #7f33b5;
-    font-size: 20px;
+    background-color: transparent;
+    border: none;
     display: block;
     padding: 20px 40px;
     margin: 15px 0;
@@ -109,7 +109,6 @@
     border-radius: 16px;
     color: #ffffff;
     min-height: calc(100vh - 120px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .game-btn {
