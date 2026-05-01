@@ -5,4 +5,7 @@ What To do
 -Add games
 -Add something
 -Fix contents
--Things for her
+
+games
+- Fix clicking game
+

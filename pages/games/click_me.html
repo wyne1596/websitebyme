@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CLICK!!</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/click_me.css">
+</head>
+<body class="body-clickme">
+    <div class="container-header"> 
+        <button id="hmbrgr" class="hamburger-sidebar">&#x2630;</button>
+        <header class="logo-container">
+            <a href="../../index.html" class="logo-link">
+              <img src="../../images/logo.png" alt="Kurumi">
+            </a>
+          </header>          
+        <div class="music-btn-container">
+            <button id="backward" class="music-btn">&#x23ee;</button>
+            <button id="start" class="music-btn">&#x23f5;</button>
+            <button id="forward" class="music-btn">&#x23ed;</button>
+        </div>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="../../index.html" class="sidebar-btn">Home</a></li>
+            <li><a href="../games.html" class="sidebar-btn">Games</a></li>
+        </ul>
+    </div>
+
+    <main class="content-clickme">
+        <button class="click is-pulsing" onclick="handleClick(this)">CLICK ME!</button>
+    </main>
+
+
+
+<script src="../../js/main.js"></script>    
+<script src="../../js/clickme.js"></script>
+</body>
+</html>
