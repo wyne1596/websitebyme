@@ -10,8 +10,9 @@
 }
 
 .container-header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: center;
     align-items: center;
     padding: 10px 7px;
     background-color: #410b58;
@@ -47,7 +48,7 @@
 
 .music-btn-container {
     display: flex;
-    gap: -10px;
+    justify-content: right;
 }
 
 .music-btn {
